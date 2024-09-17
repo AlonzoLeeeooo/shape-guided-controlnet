@@ -58,7 +58,8 @@ If you have any suggestions about this repo, please feel free to [start a new is
 The ControlNet model is trained on COCO dataset with 100,000 iterations, along with a batch size of 4.
 Each data sample consists of an image, a descriptive caption, and a shape mask.
 The image caption directly uses the official annotations (i.e., `captions_train2014.json`) in COCO dataset.
-For the shape mask, we use the off-the-shelf saliency detection model [`u2net`](https://github.com/xuebinqin/U-2-Net) to generate the shape mask for each image, where you can find more details in `annotators/u2net_saliency_detection`.
+To obtain the shape mask, I select an off-the-shelf saliency detection model [`u2net`](https://github.com/xuebinqin/U-2-Net) to do the automatic annotation for each image.
+Model weights of the annotator and the trained ControlNet are released at the [Hugging Face repo]().
 
 [<u><small><🎯Back to Table of Contents></small></u>](#table-of-contents)
 
