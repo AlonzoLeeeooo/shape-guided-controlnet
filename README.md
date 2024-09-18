@@ -27,6 +27,8 @@ If you have any suggestions about this repo, please feel free to [start a new is
 
 <!-- omit in toc -->
 # To-Do List
+- [ ] Update `install.sh`
+- [ ] Update the pre-annotated masks of COCO 2014 training set
 - Regular Maintainence
 
 [<u><small><🎯Back to Table of Contents></small></u>](#table-of-contents)
