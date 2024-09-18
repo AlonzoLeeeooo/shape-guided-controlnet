@@ -2,7 +2,7 @@
 
 # Re-implementation of ControlNet with Shape Masks
 
-[[`Hugging Face`]](https://huggingface.co/AlonzoLeeeooo/shape-guided-controlnet)
+[[`Hugging Face`]](https://huggingface.co/AlonzoLeeeooo/shape-guided-controlnet) [[`Pre-Annotated Dataset`]](https://huggingface.co/datasets/AlonzoLeeeooo/COCO2014-train-u2net-masks)
 </div>
 
 <!-- omit in toc -->
@@ -28,7 +28,7 @@ If you have any suggestions about this repo, please feel free to [start a new is
 <!-- omit in toc -->
 # To-Do List
 - [ ] Update `install.sh`
-- [ ] Update the pre-annotated masks of COCO 2014 training set
+- [x] Update the pre-annotated masks of COCO 2014 training set
 - Regular Maintainence
 
 [<u><small><🎯Back to Table of Contents></small></u>](#table-of-contents)
@@ -101,6 +101,7 @@ COCO2014
     ├── person_keypoints_train2014.json
     └── person_keypoints_val2014.json
 ```
+Or you can simply download the pre-annotated dataset from this [HF dataset repo](https://huggingface.co/datasets/AlonzoLeeeooo/COCO2014-train-u2net-masks).
 3. To prepare the pre-trained model weights of Stable Diffusion, you can download the model weights from our [Hugging Face repo](https://huggingface.co/AlonzoLeeeooo/shape-guided-controlnet/tree/main).
 
 
