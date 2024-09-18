@@ -17,7 +17,7 @@ def parse_args():
     parser.add_argument("--use_xformers", action="store_true", help="Enable xformers memory efficient attention")
     parser.add_argument("--mixed_precision", type=str, default="no", choices=["no", "fp16", "bf16"], help="Mixed precision for image generation")
     parser.add_argument("--output_path", type=str, default="", help="Local path to save the generated image")
-    parser.add_argument("--revis3ion", type=str, default="main", help="Revision of the model")
+    parser.add_argument("--revision", type=str, default=None, help="Revision of the model")
     parser.add_argument("--variant", type=str, default=None, choices=["fp16", "bf16"], help="Variant of the model")
     parser.add_argument("--negative_prompt", type=str, default=DEFAULT_NEGATIVE_PROMPT, help="Negative prompt for image generation")
     return parser.parse_args()
